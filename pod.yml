@@ -1,10 +1,10 @@
-apiVersion:  v1
-kind:  Pod
+apiVersion: v1
+kind: Pod
 metadata:
   name: pod1
 spec:
   containers:
-  - name: nginx-vikram
+  - name: nginx-arjun
     image: nginx
     ports:
-    - containerPort:  8080
+    - containerPort: 8080
