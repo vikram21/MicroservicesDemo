@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod3
+spec:
+  containers:
+  - name: k8s-demo
+    image: Java-Custom-Container
+    ports:
+    - containerPort: 80
+  - name: webwatcher
+    image: vikrambaranwal21/vikram123
